@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+		<div id="content">
+			 <h3>Hello, this is a H3 tag</h3>
+
+			<p>a pararaph</p>
+		</div>
+		<div id="editor"></div>
+		<button id="cmd">generate PDF</button>
+
+</body>
+<script>
+$(document).ready(function(){
+
+	$('#cmd').click(function () {
+		doc.fromHTML($('#content').html(), 15, 15, {
+			'width': 170,
+				'elementHandlers': specialElementHandlers
+		});
+		doc.save('sample-file.pdf');
+	});
+});
+</script>
+
+</html>
+

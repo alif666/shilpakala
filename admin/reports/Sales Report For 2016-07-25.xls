@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+<Style ss:ID="sDT"><NumberFormat ss:Format="Short Date"/></Style>
+</Styles>
+<Worksheet ss:Name="Sheet1">
+    <Table>
+        <Row>
+            <Cell><Data ss:Type="String">Sales Report For 2016-07-25</Data></Cell>
+        </Row>
+        <Row>
+            <Cell><Data ss:Type="String">SL</Data></Cell>
+            <Cell><Data ss:Type="String">Invoice</Data></Cell>
+            <Cell><Data ss:Type="String">Date</Data></Cell>
+            <Cell><Data ss:Type="String">Sub Total</Data></Cell>
+            <Cell><Data ss:Type="String">Disc of ST</Data></Cell>
+            <Cell><Data ss:Type="String">SC [10%]</Data></Cell>
+            <Cell><Data ss:Type="String">VAT [15%]</Data></Cell>
+            <Cell><Data ss:Type="String">Less</Data></Cell>
+            <Cell><Data ss:Type="String">Total Amount</Data></Cell>
+            <Cell><Data ss:Type="String">Payment</Data></Cell>
+            <Cell><Data ss:Type="String">Cash</Data></Cell>
+            <Cell><Data ss:Type="String">Card</Data></Cell>
+            <Cell><Data ss:Type="String">Bank Name</Data></Cell>
+        </Row>
+        <Row>
+            <Cell><Data ss:Type="Number">1</Data></Cell>
+            <Cell><Data ss:Type="String">zaffran-160725121550</Data></Cell>
+            <Cell><Data ss:Type="String">25 July,2016</Data></Cell>
+            <Cell><Data ss:Type="Number">790</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="Number">119</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="Number">909</Data></Cell>
+            <Cell><Data ss:Type="String">Cash</Data></Cell>
+            <Cell><Data ss:Type="Number">909</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+        </Row>
+        <Row>
+            <Cell><Data ss:Type="Number">2</Data></Cell>
+            <Cell><Data ss:Type="String">zaffran-160725202102</Data></Cell>
+            <Cell><Data ss:Type="String">25 July,2016</Data></Cell>
+            <Cell><Data ss:Type="Number">650</Data></Cell>
+            <Cell><Data ss:Type="Number">65</Data></Cell>
+            <Cell><Data ss:Type="Number">65</Data></Cell>
+            <Cell><Data ss:Type="Number">98</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="Number">748</Data></Cell>
+            <Cell><Data ss:Type="String">Cash</Data></Cell>
+            <Cell><Data ss:Type="Number">748</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+        </Row>
+        <Row>
+            <Cell><Data ss:Type="Number">3</Data></Cell>
+            <Cell><Data ss:Type="String">zaffran-160725213831</Data></Cell>
+            <Cell><Data ss:Type="String">25 July,2016</Data></Cell>
+            <Cell><Data ss:Type="Number">1585</Data></Cell>
+            <Cell><Data ss:Type="Number">159</Data></Cell>
+            <Cell><Data ss:Type="Number">159</Data></Cell>
+            <Cell><Data ss:Type="Number">238</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="Number">1823</Data></Cell>
+            <Cell><Data ss:Type="String">Cash</Data></Cell>
+            <Cell><Data ss:Type="Number">1823</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+        </Row>
+        <Row>
+            <Cell><Data ss:Type="String"></Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+            <Cell><Data ss:Type="Number">3025</Data></Cell>
+            <Cell><Data ss:Type="Number">224</Data></Cell>
+            <Cell><Data ss:Type="Number">224</Data></Cell>
+            <Cell><Data ss:Type="Number">455</Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+            <Cell><Data ss:Type="Number">3480</Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+            <Cell><Data ss:Type="Number">3480</Data></Cell>
+            <Cell><Data ss:Type="Number">0</Data></Cell>
+            <Cell><Data ss:Type="String"></Data></Cell>
+        </Row>
+    </Table>
+</Worksheet>
+</Workbook>

@@ -1,0 +1,3 @@
+[11-Jul-2017 05:32:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shilpakala/public_html/admin/booking_list.php:12) in /home/shilpakala/public_html/admin/booking_list.php on line 13
+[11-Jul-2017 05:33:16 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/shilpakala/public_html/admin/booking_list.php:12) in /home/shilpakala/public_html/admin/booking_list.php on line 13
+[08-Oct-2017 06:45:20 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/shilpakalaacadem/public_html/admin/connection/utility.php on line 31

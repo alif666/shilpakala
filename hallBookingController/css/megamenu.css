@@ -1,0 +1,149 @@
+
+.menu_heading{ font-family:Helvetica, Arial, sans-serif;  font-size:16px;}
+ .nav_mega_text{font-size: 12px !important;line-height: 15px !important; margin-top: -15px !important;}
+
+nav > ul > li > div {
+
+    position: absolute;
+
+    display: block;
+
+    width: 500px !important;
+
+    /*top: 70px;*/
+
+	
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border-radius: 0 0 3px 3px;
+
+ 
+
+    -webkit-transition: all .35s ease-in-out .35s;
+
+    -moz-transition: all .35s ease-in-out .35s;
+
+    -o-transition: all .35s ease-in-out .35s;
+
+    -ms-transition: all .35s ease-in-out .35s;
+
+    transition: all .35s ease-in-out .35s;
+
+}
+
+nav > ul > li:hover > div {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    overflow: visible;
+
+	box-shadow: 0 1px 4px rgba(0,0,0,.4);
+
+}
+
+.megamenu-show{
+
+	opacity: 1;
+
+    visibility: visible;
+
+    overflow: visible;
+
+	box-shadow: 0 1px 4px rgba(0,0,0,.4);
+
+	}
+
+nav ul .nav-column {
+
+
+
+    padding: 1.5%;
+
+	z-index:999999;
+
+	margin:0 auto;
+
+}
+
+.nav_new{
+
+	position: absolute;
+
+    display: block;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    overflow: hidden;
+
+	width:100%;
+
+	background-color:#fff;
+
+	}
+
+	.nav_new ul li { display:inline-block; width:100%;}
+
+.inner_drop:hover > .nav_new{
+
+	opacity: 1;
+
+    visibility: visible;
+
+    overflow: visible;
+
+	box-shadow: 0 1px 4px rgba(0,0,0,.4);
+
+	}
+
+	.nav_mega_6{width:100%; clear: both;}
+
+	.nav_mega_6 ul li{ float:left; width:30% !important; padding: 8px;}
+
+	.nav_mega_2{width:50%; float:left;}
+
+	.nav_mega_2 ul li{ width:100% !important;}
+
+.nav_mega{width:50%; float:left;}
+
+.nav_mega ul li{ width:100% !important;}
+
+.nav_col_3{width:20% !important;  }
+
+.nav_col_3 .nav_mega{width:100% !important;  }
+
+ .nav_left{ left:0 !important;}
+
+nav ul .nav-column li a {
+
+    display: block;
+
+    line-height: 25px;
+
+ 
+
+    font-family: Helvetica, Arial, sans-serif;
+
+    font-weight: bold;
+
+    font-size: 13px;
+	
+	font-weight:normal !important;
+
+    color: #111;
+
+}
+
+ 
+
+nav ul .nav-column li a:hover { background-color:fafafa; color: #c30; }

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------SLIDER---------------------------------*/
+.vertical-slider{
+      float:left;
+      width:100%;
+      max-height:400px;
+}
+.vertical-slider, .vertical-slider li{
+    width:100%;
+	overflow:hidden; 
+}
+.vertical-slider ul, .vertical-slider li{
+    position:relative;
+    margin:0;
+    padding:0;
+    list-style:none;
+	display:block;
+}
+.vertical-slider li{
+	clear:both;
+	position:relative;
+	max-height:400px;
+}
+.g-overlay{
+	position:absolute;
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+    opacity:0;
+	-moz-transition: 500ms ease-in;
+    -o-transition: 500ms ease-in;
+    -webkit-transition: 500ms ease-in;
+    -ms-transition: 500ms ease-in;
+    transition: 500ms ease-in;
+}
+.g-overlay:hover{
+	opacity:1;
+}
+.g-overlay-inner{
+	float:left;
+	width:40%;
+	height:100%;
+	padding:0 6%;
+	margin:0 0 0 60%;
+	background:rgba(0,0,0,0.5);	
+}
+.vertical-slider blockquote{
+	display:table;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	padding:0;
+	border:none;
+}
+.vertical-slider blockquote p{
+	color:#f0f0f0;
+	font-family:'Roboto', sans-serif;
+	font-size:1em;
+	font-weight:300;
+    line-height:1.5em;
+}
+.vertical-slider blockquote .b-content{
+	display:table-cell;
+	vertical-align:middle;	
+}
+.vertical-slider blockquote .cite{
+	float:left;
+	width:100%;
+	clear:both;
+	margin:20px 0 0 0;
+}
+.vertical-slider blockquote .cite cite{
+	color:#ddd;
+	float:left;
+	line-height:70px;
+	text-align:right;
+	width:70%;
+	font-family:'Roboto', sans-serif;
+	font-style:italic;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font-size:0.7em;
+}
+@media screen and (max-width:1600px){
+.vertical-slider blockquote .cite cite{
+	width:60%;
+	text-align:left;
+	}
+}
+@media screen and (max-width:1280px){
+.vertical-slider blockquote .cite cite{
+	width:100%;
+	text-align:right;
+	}
+}
+.vertical-slider blockquote .cite figure{
+    float:right;
+	width:70px;
+	border-radius:50%;
+	position:relative;
+}
+@media screen and (max-width:1280px){
+.vertical-slider blockquote .cite figure{
+	display:none;
+	}
+}
+.vertical-slider blockquote .cite figure img{
+	display:block;
+	border-radius:50%;
+}
+.overlay-b{
+	position:absolute;
+	width:60px;
+	height:60px;
+    line-height:60px;
+	margin:5px;
+	border-radius:50%;
+	background:rgba(0,0,0,0.99);
+	display:block;
+	font-family:'Roboto', sans-serif;
+	font-style:italic;
+	text-transform:uppercase;
+	letter-spacing:0.3em;
+	font-size:0.7em;
+	font-weight:700;
+	color:#fff;	
+	text-align:center;
+}
+.overlay-b:before{
+    content: '"';
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.5em;
+    margin-right: 0.15em;
+    color:#C30;
+}
+#controls{
+	display:table;
+	margin:0 auto;	
+}
+.prevBtn, .nextBtn{
+	margin:20px 3px 0 3px;
+	padding:0;
+	display:inline-block;
+	overflow:hidden;
+	text-indent:-8000px;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+}	
+ .prevBtn{
+ 	float:left;
+	background: url(../images/larr.png) no-repeat 0 0;
+	background-size:40px 40px;
+}
+.nextBtn {
+	float:right;
+	background: url(../images/rarr.png) no-repeat 0 0;
+	background-size:40px 40px;
+}
+
+
+@media screen and (max-width: 399px) {
+.vertical-slider {
+    max-height: 140px;
+}
+}
